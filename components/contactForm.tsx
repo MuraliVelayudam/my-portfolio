@@ -85,7 +85,7 @@ export default function ContactForm() {
                                 <Input
                                     placeholder="Your Name . . ."
                                     {...field}
-                                    className="px-4 placeholder:text-sm dark:text-white"
+                                    className="px-4 placeholder:text-sm dark:text-blue-600 font-semibold"
                                 />
                             </FormControl>
                             <FormMessage />
@@ -102,7 +102,7 @@ export default function ContactForm() {
                                 <Input
                                     placeholder="Your Email . . ."
                                     {...field}
-                                    className="px-4 placeholder:text-sm dark:text-white"
+                                    className="px-4 placeholder:text-sm dark:text-blue-600 font-semibold"
                                 />
                             </FormControl>
                             <FormMessage />
@@ -119,7 +119,7 @@ export default function ContactForm() {
                                 <Textarea
                                     placeholder="Your Message . . ."
                                     rows={10}
-                                    className="px-4 placeholder:text-sm dark:text-white"
+                                    className="px-4 placeholder:text-sm dark:text-blue-600 font-semibold"
                                     {...field}
                                 />
                             </FormControl>
